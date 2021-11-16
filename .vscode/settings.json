@@ -1,0 +1,12 @@
+{
+  "cSpell.words": [
+    "Rlxr"
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.suggest.insertMode": "replace"
+  },
+  "prettier.singleQuote": true
+}
