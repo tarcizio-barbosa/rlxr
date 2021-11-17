@@ -1,7 +1,10 @@
 import styles from './App.module.scss';
+import { NavLink } from './components/NavLink';
 
 export function App() {
-  return <div >
-    <p className={styles.test}>Rlxr</p>
-  </div>;
+  return (
+    <div className={styles.appWrapper}>
+      <NavLink linkName="Home" />
+    </div>
+  );
 }

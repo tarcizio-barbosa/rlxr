@@ -1,3 +1,12 @@
-.test {
-  color: var(--semanticColorWarning);
+.appWrapper {
+  // Positioning
+
+  padding-top: 2.5rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+
+  // Display & Boxmodel
+
+  max-width: 100%;
+  height: 100vh;
 }
