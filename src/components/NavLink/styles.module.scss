@@ -21,10 +21,19 @@
   &:hover {
     color: var(--primaryColorDark);
   }
+}
 
-  // svg {
-  //   // Display & Boxmodel
+.isActive {
+  position: relative;
+  color: var(--primaryColorDark);
 
-  //   margin-top: 0.125rem;
-  // }
+  &::after {
+    content: '';
+    position: absolute;
+    left: 30%;
+    top: 90%;
+    width: 40%;
+    height: 4px;
+    background-color: currentColor;
+  }
 }

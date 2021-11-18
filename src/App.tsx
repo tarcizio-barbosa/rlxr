@@ -17,7 +17,7 @@ export function App() {
           <NavLink linkName="English" />
           <IoChevronDown size={18} color="#D95A5F" />
         </div>
-        <NavLink linkName="Login" />
+        <NavLink isActive={true} linkName="Login" />
         <NavLink linkName="Register" />
       </div>
     </div>
