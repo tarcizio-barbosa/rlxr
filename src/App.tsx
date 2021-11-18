@@ -3,6 +3,7 @@ import { IoChevronDown } from 'react-icons/io5';
 import { NavLink } from './components/NavLink';
 
 import styles from './App.module.scss';
+import { PrimaryButton } from './components/PrimaryButton';
 
 export function App() {
   return (
@@ -18,7 +19,7 @@ export function App() {
           <IoChevronDown size={18} color="#D95A5F" />
         </div>
         <NavLink isActive={true} linkName="Login" />
-        <NavLink linkName="Register" />
+        <PrimaryButton primaryButtonText="Register" />
       </div>
     </div>
   );

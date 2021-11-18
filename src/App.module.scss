@@ -12,22 +12,25 @@
 }
 
 .navOneContainer {
+  // Display & Boxmodel
   a + a {
     margin-left: 3.75rem;
   }
 }
 
 .navTwoContainer {
+  // Display & Boxmodel
   display: flex;
 
   a + a {
+    // Display & Boxmodel
     margin-left: 3.75rem;
   }
 }
 
 .iconWapper {
+  // Display & Boxmodel
   display: flex;
   align-items: center;
-
   margin-right: 3.75rem;
 }

@@ -24,16 +24,23 @@
 }
 
 .isActive {
+  // Positioning
   position: relative;
+
+  // Display & Boxmodel
+
+  // Color
   color: var(--primaryColorDark);
 
+  // Other
   &::after {
     content: '';
     position: absolute;
     left: 30%;
     top: 90%;
     width: 40%;
-    height: 4px;
+    height: 3px;
     background-color: currentColor;
+    border-radius: 15px;
   }
 }

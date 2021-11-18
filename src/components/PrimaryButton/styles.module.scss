@@ -1,0 +1,26 @@
+.primaryButton {
+  // Diplay & Boxmodel
+  margin-left: 3.75rem;
+  width: 7.5rem;
+  height: 2.5rem;
+  border-radius: 999px;
+  border: none;
+
+  // Color
+  background: var(--neutralColor200);
+  color: var(--primaryColorLight);
+
+  // Text
+  font-weight: bold;
+  line-height: 120%;
+  font-size: 0.875rem;
+
+  // Other
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    background: var(--primaryColorLight);
+    color: var(--neutralColor100);
+  }
+}
