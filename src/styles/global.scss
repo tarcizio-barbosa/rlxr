@@ -1,25 +1,29 @@
 :root {
-  --primaryColorLight: #D95A5F;
-  --primaryColorMid: #D03B42;
-  --primaryColorDark: #BE2E34;
+  --primaryColorLight: #d95a5f;
+  --primaryColorMid: #d03b42;
+  --primaryColorDark: #be2e34;
 
-  --neutralColor100: #F2F2FA;
-  --neutralColor200: #E1E1E6;
-  --neutralColor300: #A8A8B3;
-  --neutralColor700: #29292E;
+  --neutralColor100: #f2f2fa;
+  --neutralColor200: #e1e1e6;
+  --neutralColor300: #a8a8b3;
+  --neutralColor700: #29292e;
   --neutralColor800: #202024;
   --neutralColor900: #121214;
 
-  --semanticColorSuccess: #54C433;
-  --semanticColorInfo: #0088DD;
-  --semanticColorWarning: #FFBF00;
-  --semanticColorDanger: #DD4321;
-
+  --semanticColorSuccess: #54c433;
+  --semanticColorInfo: #0088dd;
+  --semanticColorWarning: #ffbf00;
+  --semanticColorDanger: #dd4321;
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: DM Sans, sans-serif;
+}
+
+h1,
+p {
   font-family: DM Sans, sans-serif;
 }

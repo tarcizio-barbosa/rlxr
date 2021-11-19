@@ -1,14 +1,21 @@
 .appWrapper {
   // Positioning
-  padding-top: 2.5rem;
   margin-left: 6rem;
   margin-right: 6rem;
 
   // Display & Boxmodel
-  display: flex;
-  justify-content: space-around;
   max-width: 100%;
-  // height: 100vh;
+  height: 100vh;
+}
+
+.navWrapper {
+  // Positioning
+  padding-top: 2.5rem;
+
+  // Display & Boxmodel
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
 }
 
 .navOneContainer {
@@ -33,4 +40,59 @@
   display: flex;
   align-items: center;
   margin-right: 3.75rem;
+}
+
+.heroWrapper {
+  // Positioning
+  margin-top: 3.75rem;
+
+  // Display & Boxmodel
+
+  // Color
+
+  // Text
+
+  // Other
+
+  h1 {
+    // Positioning
+    margin-bottom: 2.5rem;
+
+    // Display & Boxmodel
+
+    // Color
+    color: var(--neutralColor700);
+    font-weight: bold;
+    font-size: 4rem;
+
+    // Text
+
+    // Other
+  }
+
+  p {
+    // Positioning
+
+    // Display & Boxmodel
+
+    // Color
+    color: var(--neutralColor800);
+
+    // Text
+    line-height: 140%;
+    font-size: 1rem;
+
+    // Other
+
+    span {
+      // Color
+      color: var(--primaryColorDark);
+
+      // Text
+      font-weight: bold;
+
+      // Other
+      cursor: pointer;
+    }
+  }
 }
