@@ -36,6 +36,14 @@ export function App() {
           You can <span>Register here!</span>
         </p>
       </main>
+      <div className={styles.ilustrations}>
+        <img src="/chair.png" alt="Chair" className={styles.chair} />
+        <img
+          src="/meditation.png"
+          alt="Meditation"
+          className={styles.meditation}
+        />
+      </div>
     </div>
   );
 }

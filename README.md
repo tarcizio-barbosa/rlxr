@@ -11,7 +11,6 @@
 
 **Hero & Images**
 
-- [ ] Add hero and paragraph;
-- [ ] Add imagens;
-- [ ] Add blur image;
+- [x] Add hero and paragraph;
+- [x] Add imagens;
 

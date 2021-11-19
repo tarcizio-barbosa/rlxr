@@ -56,14 +56,14 @@
 
   h1 {
     // Positioning
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
 
     // Display & Boxmodel
 
     // Color
     color: var(--neutralColor700);
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 3rem;
 
     // Text
 
@@ -74,13 +74,14 @@
     // Positioning
 
     // Display & Boxmodel
+    // margin-bottom: 1rem;
 
     // Color
     color: var(--neutralColor800);
 
     // Text
     line-height: 140%;
-    font-size: 1rem;
+    font-size: 0.875rem;
 
     // Other
 
@@ -94,5 +95,19 @@
       // Other
       cursor: pointer;
     }
+  }
+}
+
+.ilustrations {
+  .chair {
+    width: 158px;
+    height: 270px;
+    margin-right: 5rem;
+    padding-bottom: 21px;
+  }
+
+  .meditation {
+    width: 486px;
+    height: 399px;
   }
 }
