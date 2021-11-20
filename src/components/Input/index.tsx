@@ -1,5 +1,3 @@
-import { IoEye } from 'react-icons/io5';
-
 import styles from './styles.module.scss';
 
 type InputProps = {
@@ -16,12 +14,11 @@ export function Input({
   return (
     <div className={styles.inputWrapper}>
       <input
-        type="text"
+        type={isPasswordInput ? "password" : "text"}
         name={nameAndId}
         id={nameAndId}
         placeholder={placeholderName}
       />
-      {isPasswordInput ? <IoEye size={24} /> : ''}
     </div>
   );
 }

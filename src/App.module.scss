@@ -1,7 +1,7 @@
 .appWrapper {
   // Positioning
-  margin-left: 6rem;
-  margin-right: 6rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
 
   // Display & Boxmodel
   max-width: 100%;
@@ -35,7 +35,7 @@
   }
 }
 
-.iconWapper {
+.iconWrapper {
   // Display & Boxmodel
   display: flex;
   align-items: center;
@@ -47,6 +47,7 @@
   margin-top: 3.75rem;
 
   // Display & Boxmodel
+  width: 180%;
 
   // Color
 
@@ -81,7 +82,7 @@
 
     // Text
     line-height: 140%;
-    font-size: 0.875rem;
+    font-size: 1rem;
 
     // Other
 
@@ -98,7 +99,7 @@
   }
 }
 
-.ilustrations {
+.illustrations {
   .chair {
     width: 158px;
     height: 270px;
@@ -109,5 +110,30 @@
   .meditation {
     width: 486px;
     height: 399px;
+  }
+}
+
+.loginContainer {
+  // width: 100%;
+  display: flex;
+
+  form {
+    margin-top: 8rem;
+
+    p {
+      display: flex;
+      justify-content: flex-end;
+
+      color: var(--neutralColor300);
+
+      line-height: 120%;
+      font-size: 0.75rem;
+
+      cursor: pointer;
+
+      &:hover {
+        color: var(--primaryColorDark);
+      }
+    }
   }
 }

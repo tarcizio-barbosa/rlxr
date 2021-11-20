@@ -1,0 +1,36 @@
+.inputWrapper {
+  // Positioning
+  margin-bottom: 1.25rem;
+  margin-left: 10rem;
+
+  // Display & Boxmodel
+
+  // Color
+
+  // Text
+
+  // Other
+
+  input {
+    // Display & Boxmodel
+    width: 20rem;
+    height: 3rem;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: none;
+
+    // Color
+    background: var(--neutralColor100);
+    color: var(--neutralColor800);
+
+    // Text
+    line-height: 140%;
+    font-size: 0.875rem;
+
+    // Other
+
+    &:focus {
+      outline: 2px solid var(--primaryColorDark);
+    }
+  }
+}
