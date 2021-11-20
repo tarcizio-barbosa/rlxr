@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project is about webapp about relax and meditation methods. Is a conceptual product to practice my skills ins ReactJS with Vite and CSS with Sass.
+This project is a webapp about relax and meditation methods. Is a conceptual product to practice my skills ins ReactJS with Vite and CSS with Sass.
 
 The UI war inspired [in this project](https://dribbble.com/shots/13774549-Recharge-Quickly) on Dribbble.
 
